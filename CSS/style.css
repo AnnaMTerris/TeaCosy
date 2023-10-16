@@ -1,1 +1,51 @@
+/* Universal Style */
 
+html {
+    font-family: Helvetica, Arial, sans-serif;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+}
+
+p {
+    font-size: 22px;
+}
+
+a {
+    text-decoration: underline;
+    color: seashell;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/* Header */
+
+header {
+    display: flex;
+    border-bottom: 1px solid seashell;
+    align-items: center;
+    justify-content: space-between;
+    height: 69px;
+}
+
+.logo {
+    height: 50px;
+    margin: 10px;
+}
+
+nav li {
+    display: inline;
+    font-size: 22px;
+    padding: 10px;
+}
+
+/* Banner */
+#banner {
+    background: url(./Photos/img-mission-background.webp);
+    background-size: cover;
+    height: 700px;
+}
+
+/* Locations */
