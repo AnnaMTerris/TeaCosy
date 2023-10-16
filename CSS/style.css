@@ -1,14 +1,14 @@
 /* Universal Style */
 
+* {
+    box-sizing: border-box;
+}
+
 html {
     font-family: Helvetica, Arial, sans-serif;
     color: seashell;
     background-color: black;
     opacity: 0.9;
-}
-
-p {
-    font-size: 22px;
 }
 
 a {
@@ -32,7 +32,7 @@ header {
 
 .logo {
     height: 50px;
-    margin: 10px;
+    margin-left: 10px;
 }
 
 nav li {
@@ -44,8 +44,34 @@ nav li {
 /* Banner */
 #banner {
     background: url(./Photos/img-mission-background.webp);
-    background-size: cover;
     height: 700px;
+    width: 1200px;
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+}
+
+/* Tea of the Month */
+
+.container {
+    width: 1000px;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+.teaofthemonth {
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.teaofthemonth img {
+    width: 300px;
+    height: 200px;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 /* Locations */
